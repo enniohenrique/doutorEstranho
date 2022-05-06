@@ -20,10 +20,11 @@ body {
 @media (max-width:768px) {
     body {
         padding: 30px 30px 25px 30px;
-        background-image: url(../img/bg4.jpg);
+        background-image: url(../img/de7.jpg);
         background-color: #0006;
         background-blend-mode: darken;
-        background-position: 30%;
+        background-position: 100%;
+
     }
 }
 
@@ -113,7 +114,7 @@ main {
 }
 
 .movie-title {
-    font-weight: bold;
+    font-weight: 200;
     font-size: 2.6rem;
     font-style: italic;
     color: #e62721;;
