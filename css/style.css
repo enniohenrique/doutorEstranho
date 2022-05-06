@@ -190,8 +190,11 @@ main {
     }
 
     .movie-title {
-        font-size: 1.45rem;
+        font-weight: 700;
+        font-size: 1.6rem;
         transform: translateY(5px);
+        text-shadow: 2px 2px 2px #000;
+
     }
 
     .movie-text {
