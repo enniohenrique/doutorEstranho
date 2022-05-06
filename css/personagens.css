@@ -1,0 +1,107 @@
+body {
+    height: 100vh;      /* Ocupando a tela inteira que está vísivel */
+    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/personagem1-1.jpg);
+    background-repeat: no-repeat;       /* Posicionando a imagem bem no meio da tela */
+    background-size: cover;             /* Posicionando a imagem bem no meio da tela */
+    background-position: center;        /* Posicionando a imagem bem no meio da tela */
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+   /*  animation: zoom 1.5s; */         /* Animação ao abrir a página */
+}
+img {
+    max-width: 100%;        /* Esticando as imagens até no máximo 100% do tamanho delas */
+    display: block;
+}
+.flex {
+    margin: 0 auto;     /* Alinhando a imagem no centro */
+}
+
+.flex > div {
+    flex: 1 1 100px;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Footer */ 
+footer {
+    margin-top: 180px;
+} 
+
+/* JavaScript */
+.js [data-slide] {
+    position: relative;
+}
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+.js [data-slide-nav] {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.js [data-slide-nav] button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.js [data-slide-nav] button.active {
+    background-color: #e62721;
+}
+
+
+/* Responsivo */
+
+
+
+@media (max-width:768px) {
+    body {
+        padding: 30px 30px 25px 30px;
+        background-image: url(../img/de6-3.jpg);
+        background-color: #0006;
+        background-blend-mode: darken;
+        background-position: center;
+    }
+    .flex {
+        margin-top: 5px;
+        display: block;
+    }
+    footer {
+        margin-top:2px;
+    }
+   
+}
+
+
+@keyframes zoom {
+    0% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
