@@ -20,10 +20,10 @@ body {
 @media (max-width:768px) {
     body {
         padding: 30px 30px 25px 30px;
-        background-image: url(../img/background.png);
+        background-image: url(../img/de6-3.jpg);
         background-color: #0006;
         background-blend-mode: darken;
-        background-position: 85%;
+        background-position:60%;
 
     }
 }
