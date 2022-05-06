@@ -20,11 +20,10 @@ body {
 @media (max-width:768px) {
     body {
         padding: 30px 30px 25px 30px;
-        background-image: url(../img/de7.jpg);
+        background-image: url(../img/bg4.jpg);
         background-color: #0006;
         background-blend-mode: darken;
-        background-position: 50%;
-
+        background-position: 30%;
     }
 }
 
@@ -109,13 +108,12 @@ main {
 
 .content-container h1 span {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 200;
     transform: translateY(30px);
 }
 
 .movie-title {
-    font-weight: 400;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 2.6rem;
     font-style: italic;
     color: #e62721;;
