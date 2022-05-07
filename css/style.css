@@ -6,10 +6,10 @@ html,body {
 }
 body {
     height: 100vh;
-    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/back5.jpg);
+    background: linear-gradient(90deg, #000 ,#000d 1%, #0000), url(../img/back5.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
-    background-position: left;
+    background-position: center;
     display: flex;
     flex-direction: column;
     padding: 80px 128px 50px 128px;
