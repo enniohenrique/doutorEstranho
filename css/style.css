@@ -6,10 +6,9 @@ html,body {
 }
 body {
     height: 100vh;
-    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/back5.jpg);
+    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/back6.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
-    background-position: right;
     display: flex;
     flex-direction: column;
     padding: 80px 128px 50px 128px;
@@ -22,6 +21,7 @@ body {
     body {
         padding: 30px 30px 25px 30px;
         background-image: url(../img/de7.jpg);
+        background: linear-gradient(45deg, #000 ,#000d 5%, #0000), url(../img/de7.jpg);
         background-color: #0006;
         background-blend-mode: darken;
         background-position: 100%;
@@ -190,7 +190,6 @@ main {
     }
 
     .movie-title {
-        font-weight: 700;
         font-size: 1.6rem;
         transform: translateY(5px);
         text-shadow: 2px 2px 2px #000;
