@@ -6,9 +6,10 @@ html,body {
 }
 body {
     height: 100vh;
-    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/personagem1-1.jpg);
+    background: linear-gradient(90deg, #000 ,#000d 35%, #0000), url(../img/back5.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
+    background-position: right;
     display: flex;
     flex-direction: column;
     padding: 80px 128px 50px 128px;
@@ -20,10 +21,10 @@ body {
 @media (max-width:768px) {
     body {
         padding: 30px 30px 25px 30px;
-        background-image: url(../img/de7.jpg);
+        background-image: url(../img/back1.jpg);
         background-color: #0006;
         background-blend-mode: darken;
-        background-position: 100%;
+        background-position: 20%;
 
     }
 }
